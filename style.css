@@ -18,7 +18,7 @@ body{
     border-radius: 5px;
     position: relative;
     text-align: center;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 4px 4px 4px #888888;
 }
 form{
     width: 280px;
