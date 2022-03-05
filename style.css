@@ -49,4 +49,8 @@ button{
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
-}  
+}
+button:hover{
+    background-color: cadetblue;
+    color: #000;
+}
