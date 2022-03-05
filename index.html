@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HTML, CSS and JavaScript demo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
   <div class="container">
-
-    <div id="login-error-msg-holder">
-      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    <div class="card" data-tilt>
+      <div id="login-error-msg-holder">
+        <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+      
+      <form id="form-details">
+        <h1>Login</h1>
+        <input type="text" placeholder="username" name="username" required/>
+        <input type="password" placeholder="password" name="password" required/>
+        <button id="submit">Login</button>
+      </form>
     </div>
-
-    <form id="form-details">
-      <h1>Login</h1>
-      <input type="text" placeholder="username" name="username" required/>
-      <input type="password" placeholder="password" name="password" required/>
-      <button id="submit">Login</button>
-    </form>
   </div>
 
   <script src="script.js"></script>
+  <script src="vanilla-tilt.js"></script>
 
 </body>
 </html>
