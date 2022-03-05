@@ -78,4 +78,7 @@ button:hover{
         width: 351px;
         height: auto;
     }
+    form{
+        width: 100px;
+    }
 }
