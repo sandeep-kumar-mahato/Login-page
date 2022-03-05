@@ -27,7 +27,6 @@ form{
     position: absolute;
     top: 100px;
     left: 100px;
-    filter: blur(5px);
 }
 h1{
     text-align: center;
