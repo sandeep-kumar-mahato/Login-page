@@ -67,3 +67,10 @@ button:hover{
     background-color: cadetblue;
     color: #000;
 }
+
+@media (max-width:700px){
+    .container{
+        width: 350px;
+        height: auto;
+    }
+}
