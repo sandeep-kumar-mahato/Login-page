@@ -72,13 +72,3 @@ button:hover{
     background-color: linear-gradient(45deg, green, yellow);
     color: #000;
 }
-
-@media (max-width:700px){
-    .container{
-        width: 351px;
-        height: auto;
-    }
-    form{
-        width: 100px;
-    }
-}
