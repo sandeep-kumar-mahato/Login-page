@@ -68,8 +68,8 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: rgb(206, 144, 144);
+    color: rgb(22, 15, 15);
 }
 @media screen and (min-width: 480px) {
     .container{
