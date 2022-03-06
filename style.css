@@ -71,3 +71,8 @@ button:hover{
     background-color: #fff;
     color: #000;
 }
+@media screen and (min-width: 480px) {
+    .container{
+        width: 200px;
+    }
+  }
